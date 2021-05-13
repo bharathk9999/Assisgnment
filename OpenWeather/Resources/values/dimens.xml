@@ -1,0 +1,8 @@
+<resources>
+  <dimen name="fab_margin">16dp</dimen>
+  <dimen name="wetherinfo_margin">16dp</dimen>
+  <dimen name="cityname_margin">10dp</dimen>
+  <dimen name="gobutton_height">55dp</dimen>
+  <dimen name="weatherinfo_textsize">55dp</dimen>
+  <dimen name="cityname_padding">5dp</dimen>
+</resources>

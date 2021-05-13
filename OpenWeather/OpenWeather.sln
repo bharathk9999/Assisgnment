@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWeather", "OpenWeather.csproj", "{D5766982-BFDE-4EC4-992E-320740D8257D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenWeatherN", "..\OpenWeatherN\OpenWeatherN.csproj", "{D28FC467-5405-488C-8904-2C4A5AC235CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWeatherUnitTest", "..\OpenWeatherUnitTest\OpenWeatherUnitTest.csproj", "{1F5AB321-3CEC-41B2-8E5B-6E06C49B313C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5766982-BFDE-4EC4-992E-320740D8257D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5766982-BFDE-4EC4-992E-320740D8257D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5766982-BFDE-4EC4-992E-320740D8257D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D5766982-BFDE-4EC4-992E-320740D8257D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5766982-BFDE-4EC4-992E-320740D8257D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5766982-BFDE-4EC4-992E-320740D8257D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D28FC467-5405-488C-8904-2C4A5AC235CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D28FC467-5405-488C-8904-2C4A5AC235CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D28FC467-5405-488C-8904-2C4A5AC235CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D28FC467-5405-488C-8904-2C4A5AC235CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F5AB321-3CEC-41B2-8E5B-6E06C49B313C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F5AB321-3CEC-41B2-8E5B-6E06C49B313C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F5AB321-3CEC-41B2-8E5B-6E06C49B313C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F5AB321-3CEC-41B2-8E5B-6E06C49B313C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24E8F961-C583-4D06-A506-463B694FC0B9}
+	EndGlobalSection
+EndGlobal
