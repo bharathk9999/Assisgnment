@@ -67,7 +67,7 @@ namespace OpenWeather
 
         public void onTemperatureresult(WeatherArgs args)
         {
-            if (args != null || args._weatherInfo != null || args._weatherInfo?.TemperatureInfo != null)
+            if (args != null && args._weatherInfo != null && args._weatherInfo?.TemperatureInfo != null)
             {
                 result.Text = "The weather is " + args._weatherInfo?.Weather[0]?.Description + " and the Temperature is " + args._weatherInfo?.TemperatureInfo?.Temp + " Kelvin" ;
             }
